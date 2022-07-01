@@ -1,5 +1,5 @@
 package com.hamzayakan.utils;
 
 public class PermaLink {
-    //GİTHUB :
+    // GİTHUB : https://github.com/hamzayakan/DemoSpringFramework
 }
