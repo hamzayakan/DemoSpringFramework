@@ -10,15 +10,21 @@
     <name>DemoSpringFramework</name>
     <packaging>war</packaging>
 
+    <!--properties-->
     <properties>
+        <encoding>UTF-8</encoding>
+        <java.version>18</java.version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
 
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -57,9 +63,11 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-
-
     </dependencies>
+
+
+
+
 
     <build>
         <plugins>
